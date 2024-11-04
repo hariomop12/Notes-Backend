@@ -42,7 +42,7 @@ class Note(db.Model):
                model = Note
 
 # Initialize schema
-note_schema = NoteSchema()
+note_schema = NoteSchema()  
 notes_schema = NoteSchema(many=True)
 
 
